@@ -19,6 +19,7 @@ build/
 credentials.json
 token.json
 tokens.json
+auth.secure.json
 
 # IDE/Editor files
 .vscode/
@@ -75,3 +76,14 @@ jspm_packages/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# OCR models (large binary files)
+models/
+
+# SQLite material cache
+material-cache.sqlite
+material-cache.sqlite-shm
+material-cache.sqlite-wal
+
+# Lock files (keep package-lock.json for reproducibility)
+bun.lock
