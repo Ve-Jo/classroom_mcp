@@ -75,8 +75,10 @@ npm run build
 
 1. Открой [console.cloud.google.com](https://console.cloud.google.com/)
 2. Создай/выбери проект
-3. **APIs & Services > Library** → включи **Google Classroom API**
-4. Для извлечения Google Forms — включи **Google Forms API** (опционально)
+3. **APIs & Services > Library** → включи необходимые API:
+   - **Google Classroom API** — обязательно
+   - **Google Drive API** — для извлечения текста из файлов на Drive (DOCX, PDF, PPTX, XLSX, изображения и т.д.)
+   - **Google Forms API** — для извлечения структуры тестов/форм (опционально, fallback на парсинг публичной страницы)
 
 ### Шаг 3 — Создать OAuth-credentials
 
